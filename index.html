@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+        .ele{
+display: flex;
+align-items: center;
+        }
+        form{
+            width: fit-content;
+        }
+        p{
+            width: 100px;
+        }
+        form input[type="radio"]   ,input[type="checkbox"]{
+            display: flex;
+            flex-direction: column;
+         }
+            
+        </style>
+    </head>
+    <body>
+        <form>
+            <h2>Novell Services Login</h2>
+            <div class="ele">
+                <p><label>Username</label></p>
+                <input type="text">
+            </div>
+            <div class="ele">
+                <p><label>Password</label></p>
+                <input type="password">
+            </div>
+            <div class="ele">
+                <p><label>City of Employment</label></p>
+                <input type="text">
+            </div>
+            <div class="ele">
+                <p><label>Web Server</label></p>
+                <select>
+                    <option>--Choose a server--</option>
+                    <option>server-1</option>
+                    <option>server-2</option>
+                    <option>server-3</option>
+                </select>
+            </div>
+            <div class="ele">
+                <p><label>Please specify your role</label></p>
+                
+                    <input type="radio"><label>Admin</label>
+                    <input type="radio">Engineer
+                    <input type="radio">Manager
+                    <input type="radio">Guest
+                
+               
+            </div>
+            <div class="ele">
+                <p><label>Single Sign-on to the following</label></p>
+                <input type="checkbox">Mail 
+                <input type="checkbox">Payroll
+                <input type="checkbox">self-service
+            </div>
+           
+           
+           
+          
+           
+          
+            <input type="submit" value="Login">
+            <input type="reset">
+
+        </form>
+    </body>
+</html>
